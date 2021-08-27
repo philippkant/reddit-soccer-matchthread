@@ -13,7 +13,15 @@ reddit = praw.Reddit(
     password=PASSWORD,
 )
 
-# obtain all comments of a specific submission (may take a long time)
-submission = reddit.submission(id='pbgy9r')
-submission.comments.replace_more(limit=None)
+# obtain specific submission
+submission = reddit.submission(id='pciqyw')
+
+# loading all comments by making multiple api calls
+# to replace all "load more comments" instances (may take a long time)
+submission.comment_sort = "old"
+submission.comments.replace_more(limit=None) 
 comments = submission.comments.list()
+
+# for comment in comments:
+#   print(comment.body)
+#   print('############################################')
