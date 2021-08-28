@@ -1,1 +1,6 @@
 secret.py
+.ipynb_checkpoints/
+__pycache__/
+links.txt
+praw_matchthread2.ipynb
+main2.py
