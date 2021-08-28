@@ -1,4 +1,4 @@
-# Data analysis on Reddit data: Reddit r/soccer match thread
+# Data analysis on Reddit data: r/soccer match thread comments
 
 The following graphs show the number of comments in each minute in a specific r/soccer match thread.
 
