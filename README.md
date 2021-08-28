@@ -1,14 +1,6 @@
-# Data analysis on Reddit data
+# Data analysis on Reddit data: Reddit r/soccer match thread
 
-# Reddit r/soccer match thread - Comments per minute
-
-## Tools used
-
-- [PRAW](https://praw.readthedocs.io/en/stable/) (Python Reddit API Wrapper)
-- Jupyter Notebook
-- Pandas
-- Matplotlib
-- Seaborn
+The following graphs show the number of comments in each minute in a specific r/soccer match thread.
 
 ## Example graphs
 
@@ -27,6 +19,13 @@ Match thread link: [``` https://www.reddit.com/r/soccer/comments/5y9qif/match_th
 
 ![barcelona-paris](./plots/barcelona_paris.png)
 
+## Tools used
+
+- [PRAW](https://praw.readthedocs.io/en/stable/) (Python Reddit API Wrapper)
+- Jupyter Notebook
+- Pandas
+- Matplotlib
+- Seaborn
 
 ## About this repository
 
